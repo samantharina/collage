@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sam's Collage </title>
+
+	<style type="text/css">
+
+	*{box-sizing: border-box;}
+
+	html,body { margin: 0;
+				padding: 0; }
+
+	body {background: yellow;}
+
+
+	.container {background: #fff2b5;
+		  		min-height: 100vh;
+		  		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-areas: 
+		"photo1 photo2 photo3"
+		"photo4 photo4 photo5"
+		"photo6 photo7 photo7";
+		grid-gap: 10px;
+		padding: 10px;
+		}
+
+		.item {background: green;
+				min-height: 100px;
+				min-width: 100px;}
+
+
+		#photo1 {grid-area: photo1;
+				background: url(https://target.scene7.com/is/image/Target/GUEST_15eb61e5-0f35-4d85-9ee4-f5f3fab7246e?wid=488&hei=488&fmt=pjpeg);
+				background-size: cover;
+				background-position: center;}
+
+		#photo2 {grid-area: photo2;
+				background: url(https://images-na.ssl-images-amazon.com/images/I/915%2Buf6eYGL._SY355_.jpg); 
+				background-size: cover;
+				background-position: center;}
+
+
+		#photo3 {grid-area: photo3;
+				background: url(http://nationalviral.com/trendsimages/honey-nut-cheerios-will-no-longer-have-a-bee-on-the-cereal-box.jpeg);
+				background-size: cover;
+				background-position: center;}
+
+		#photo4 {grid-area: photo4;
+				background: url(https://brain762.files.wordpress.com/2016/09/cereal_applke_jacks_620x413.jpg);
+				background-size: cover;
+				background-position: center;}
+		
+		#photo5 {grid-area: photo5;
+				background: url(https://www.dollargeneral.com/media/catalog/product/cache/image/700x700/e9c3970ab036de70892d86c6d221abfe/0/0/00834806_kellog_frosted_flakes_cereal_10.5oz_right_facing.jpg);
+				background-size: cover;
+				background-position: center;}
+
+		#photo6 {grid-area: photo6;
+				background: url(https://pics.drugstore.com/prodimg/413317/900.jpg);
+				background-size: cover;
+				background-position: center;}
+
+		#photo7 {grid-area: photo7;
+				background:url(https://s3.amazonaws.com/newamysite.selenesoftware.us/wp-content/uploads/2016/07/08160222/Tiny-Toast-Bowl.jpg) ;
+				background-size: cover;
+				background-position: center;}
+
+		
+
+	</style>
+
+</head>
+
+
+
+<body>
+
+	<div class= "container" >
+
+	<div class="item" id="photo1"> </div>
+	<div class="item" id="photo2"> </div>
+	<div class="item" id="photo3"> </div>
+	<div class="item" id="photo4"> </div>
+	<div class="item" id="photo5"> </div>
+	<div class="item" id="photo6"> </div>
+	<div class="item" id="photo7"> </div>
+
+
+
+
+
+
+</body>
+</html>
